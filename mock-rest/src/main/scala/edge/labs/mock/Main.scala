@@ -24,6 +24,6 @@ object Main extends App {
     }
 
   Await.ready(
-    Http.server.serve(":8081", time.toService)
+    Http.server.serve(":8090", time.toService)
   )
 }
